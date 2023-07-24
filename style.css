@@ -1,0 +1,61 @@
+
+.contenainer {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.nav-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+a.link {
+    text-decoration: none;
+    color: inherit; /* Mantener el color del texto heredado del contenedor */
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #f2f2ea;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+    width: 100%;
+}
+
+
+.background-section{
+    background-color: #000;
+
+}
+.section a.button:hover {
+    background-color: #050101;
+}
+
+#card-footer {
+    background-color: #040000;
+    color: #fff;
+    padding: 20px;
+
+}
+
